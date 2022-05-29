@@ -1,0 +1,125 @@
+﻿@model IEnumerable<carpe_diem_v2.Models.CadastroImovel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fotos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoEspaco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoAcomodacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantHospedes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantCamas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantBanheiros)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OpOferecer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraCheckin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraCheckout)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DistPraia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorDiaria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InfAdicionais)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DisponibilizarImovel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DesativarImovel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hospede)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fotos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoEspaco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoAcomodacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantHospedes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantCamas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantBanheiros)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpOferecer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraCheckin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraCheckout)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DistPraia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorDiaria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InfAdicionais)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisponibilizarImovel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DesativarImovel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hospede.ConfirmarSenha)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

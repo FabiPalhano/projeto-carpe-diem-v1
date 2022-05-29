@@ -7,28 +7,28 @@ namespace carpe_diem_v1.Models
     [Table("Hospedes")]
     public class Hospede
     {
-        
-        public int Id { get; set; }
-
         [Key]
-        public char Cpf { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar o Nome Completo!")]
         public string NomeCompHospede { get; set; }
+
+        [Required(ErrorMessage = "Obrigatório Informar o CPF!")]
+        public char Cpf { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar a Data de Nascimento!")]
         public int DataNascimento { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar o Endereço!")]
-        public char Endereco { get; set; }
+        public string Endereco { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar o Telefone!")]
-        public char Telefone { get; set; }
+        public string Telefone { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar o Email!")]
-        public char EmailHospede { get; set; }
+        public string EmailHospede { get; set; }
 
         [Required(ErrorMessage = "Obrigatório Informar a Senha!")]
-        public char Senha { get; set; }        
+        public string Senha { get; set; }        
     }
 }

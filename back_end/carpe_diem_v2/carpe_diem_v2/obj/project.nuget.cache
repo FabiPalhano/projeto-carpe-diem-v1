@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HP4CDEfti27EQR0QZ8tVr9XdHCw2KP/5Nj22q8A6onfLqRh5GnzepfPC3GbQk1UEoVj62HiDyhcHMfKQ4ygDUA==",
+  "dgSpecHash": "YWu1ROHDY6qUNwhTVadddqBAJRvtt8Bemen/fj1/CQ4MGmZN9G2aqcMKPmDFCECCKJV9dwOFkbgXs66I54dIxg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\carpe_diem_v2\\carpe_diem_v2\\carpe_diem_v2.csproj",
+  "projectFilePath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\back_end\\carpe_diem_v2\\carpe_diem_v2\\carpe_diem_v2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabiana\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Fabiana\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

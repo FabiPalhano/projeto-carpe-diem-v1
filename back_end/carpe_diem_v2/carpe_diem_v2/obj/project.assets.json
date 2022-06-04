@@ -9665,11 +9665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\carpe_diem_v2\\carpe_diem_v2\\carpe_diem_v2.csproj",
+      "projectUniqueName": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\back_end\\carpe_diem_v2\\carpe_diem_v2\\carpe_diem_v2.csproj",
       "projectName": "carpe_diem_v2",
-      "projectPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\carpe_diem_v2\\carpe_diem_v2\\carpe_diem_v2.csproj",
+      "projectPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\back_end\\carpe_diem_v2\\carpe_diem_v2\\carpe_diem_v2.csproj",
       "packagesPath": "C:\\Users\\Fabiana\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\carpe_diem_v2\\carpe_diem_v2\\obj\\",
+      "outputPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\MeusProjetos\\projeto-carpe-diem-v1\\back_end\\carpe_diem_v2\\carpe_diem_v2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -70,8 +70,11 @@ namespace carpe_diem_v2.Models
 
     public enum Acomodacao
     {
+        [Display(Name ="Espaço Completo")]
         EspaçoCompleto,
+        [Display(Name = "Quarto Inteiro")]
         QuartoInteiro,
+        [Display(Name = "Quarto Compartilhado")]
         QuartoCompartilhado
     }
 
